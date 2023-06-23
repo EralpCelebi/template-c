@@ -22,7 +22,4 @@ clean:
 $(BINFILES): $(OBJFILES)
 	$(CC) $(LDFLAGS) $^ -o $@
 
-%.o: %.cpp
-	$(CC) $(CFLAGS) -c $< -o $@
-
 -include $(DEPFILES)
