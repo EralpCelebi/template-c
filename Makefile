@@ -6,7 +6,7 @@ DEPFILES := $(SRCFILES:.c=.d)
 OBJFILES := $(SRCFILES:.c=.o)
 
 CFLAGS ?= -O0 -g
-CFLAGS += -Wall -Wextra -MMD -MP -Iinclude
+CFLAGS += -Wall -Wextra -Wpedantic -MMD -MP -Iinclude
 
 LDFLAGS ?=
 LDFLAGS +=
