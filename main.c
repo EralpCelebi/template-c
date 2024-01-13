@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int main()
-{
+struct packet_t {};
+
+int main() {
   printf("%s\n", "Hello!");
   return 0;
 }
